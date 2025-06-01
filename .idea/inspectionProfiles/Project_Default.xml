@@ -1,0 +1,61 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyArgumentListInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="W605" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N806" />
+          <option value="N802" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyShadowingBuiltinsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredNames">
+        <list>
+          <option value="next" />
+          <option value="property" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="false" level="WARNING" enabled_by_default="false">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="PyQt5.uic.loadUi" />
+          <option value="gurobipy" />
+          <option value="AudioManagement.models.Audio.*" />
+          <option value="AudioManagement.models.PlayList.*" />
+          <option value="NutritionManagement.models.Food.*" />
+          <option value="UserFunctionality.models.Goal.*" />
+          <option value="UserFunctionality.models.Weight.*" />
+          <option value="django.db.models.fields.related.ForeignKey.*" />
+          <option value="django.db.models.fields.related.OneToOneField.*" />
+          <option value="Accounts.models.Customer.*" />
+          <option value="NutritionManagement.models.Meal.*" />
+          <option value="NutritionistFunctionality.models.DietMeal.*" />
+          <option value="NutritionManagement.models.Recipe.*" />
+          <option value="NutritionistFunctionality.models.Article.*" />
+          <option value="NutritionManagement.models.DayPlanning.*" />
+          <option value="UserFunctionality.models.Note.*" />
+          <option value="UserFunctionality.models.Exercise.*" />
+          <option value="NutritionistFunctionality.models.Diet.*" />
+          <option value="BalanceSheet.models.BilanMental.*" />
+          <option value="Subscription.models.Patient.*" />
+          <option value="Accounts.models.Nutritionist.*" />
+          <option value="Accounts.models.Admin.*" />
+          <option value="BalanceSheet.models.BilanSommeil.*" />
+          <option value="BalanceSheet.models.BilanGratitude.*" />
+          <option value="BalanceSheet.models.BilanHumeur.*" />
+          <option value="list.*" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
