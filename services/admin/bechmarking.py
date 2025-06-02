@@ -157,3 +157,81 @@ def generate_qa_pairs(content):
     except Exception as e:
         print(f"Error generating Q&A pairs: {str(e)}")
         return []
+
+"""
+Code Report: services/admin/bechmarking.py
+
+1. Overview
+-----------
+This module provides functionality for processing and generating medical Q&A pairs from JSON data.
+It includes utilities for file handling, data grouping, and AI-powered question-answer generation.
+
+2. Key Functions
+---------------
+a) group_sources(path)
+   - Purpose: Groups and consolidates JSON data from subdirectories
+   - Input: Directory path containing subdirectories with JSON files
+   - Output: Creates consolidated JSON files named 'all_{folder}.json'
+   - Error Handling: Catches and prints exceptions for individual file loading errors
+
+b) load_qa(qa_folder)
+   - Purpose: Loads Q&A pairs from JSON files in a specified directory
+   - Input: Path to directory containing Q&A JSON files
+   - Output: Returns two lists: questions and answers
+   - Error Handling: Handles JSON decode errors and invalid data structures
+   - Validation: Ensures proper Q&A pair format with 'question' and 'answer' keys
+
+c) load_json_files(base_dir)
+   - Purpose: Loads all JSON files from a base directory
+   - Input: Base directory path
+   - Output: List of dictionaries containing file paths and their contents
+   - Error Handling: Catches and logs exceptions for individual file loading errors
+
+d) generate_qa_pairs(content)
+   - Purpose: Generates medical Q&A pairs using NVIDIA's AI model
+   - Input: Content to generate Q&A pairs from
+   - Output: List of Q&A pairs in JSON format
+   - Features:
+     * Uses OpenAI-compatible API with NVIDIA's model
+     * Implements streaming for response handling
+     * Includes comprehensive error handling
+     * Validates response format and structure
+   - Configuration: Uses Config class for API key and model settings
+
+3. Dependencies
+--------------
+- json: For JSON data handling
+- glob: For file pattern matching
+- os: For file system operations
+- openai: For AI model interaction
+- config.Config: For configuration management
+
+4. Error Handling
+----------------
+- Comprehensive try-except blocks throughout the code
+- Detailed error messages for debugging
+- Graceful handling of invalid JSON and data structures
+- Validation of AI model responses
+
+5. Security Considerations
+-------------------------
+- Uses configuration-based API key management
+- No hardcoded credentials
+- Input validation for file operations
+
+6. Performance Considerations
+----------------------------
+- Streaming implementation for AI responses
+- Efficient file handling with proper encoding
+- Batch processing capabilities for multiple files
+
+7. Potential Improvements
+------------------------
+- Add logging instead of print statements
+- Implement retry mechanisms for API calls
+- Add input validation for file paths
+- Consider async/await for better performance
+- Add type hints for better code maintainability
+- Implement unit tests for each function
+- Add documentation strings for each function
+"""

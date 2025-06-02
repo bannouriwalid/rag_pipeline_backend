@@ -120,3 +120,79 @@ OVERALL FEEDBACK: [average score] and 2-3 sentences summarizing the evaluation]
                             overall_feedback=scores["overall_feedback"])
     db.session.add(evaluation)
     db.session.commit()
+
+"""
+Code Report: Evaluation Module
+=============================
+
+Overview:
+---------
+This module implements an automated evaluation system for medical knowledge responses using NVIDIA's LLM API.
+The system evaluates responses based on multiple criteria and stores the results in a database.
+
+Key Components:
+--------------
+1. Main Function: evaluate_response(question, context, response, label=None)
+   - Takes question, context, response, and optional label as inputs
+   - Returns evaluation scores and feedback
+
+2. Evaluation Criteria (0-5 scale):
+   - Clarity: Response structure and presentation
+   - Exactitude: Accuracy and precision
+   - Context Adherence: Alignment with knowledge graphs
+   - Relevance: Context relevance to question
+   - Completeness: Thoroughness of response
+   - Logical Flow: Coherence and structure
+   - Uncertainty Handling: Acknowledgment of limitations
+
+3. Technical Implementation:
+   - Uses NVIDIA's LLM API (meta/llama-3.1-405b-instruct)
+   - Implements streaming response handling
+   - Uses regex for score extraction
+   - Includes special handling for "I don't know" responses
+
+4. Database Integration:
+   - Stores evaluations in a database using SQLAlchemy
+   - Creates Evaluation objects with all scores and metadata
+
+Security & Configuration:
+------------------------
+- Uses Config class for API keys and model settings
+- Implements secure API key handling
+- Uses environment variables for sensitive data
+
+Performance Considerations:
+-------------------------
+- Uses streaming for large responses
+- Implements efficient regex pattern matching
+- Handles response chunks incrementally
+
+Error Handling:
+--------------
+- Gracefully handles missing or invalid scores
+- Converts string scores to float values
+- Handles special cases (e.g., "I don't know" responses)
+
+Dependencies:
+------------
+- openai: For LLM API integration
+- re: For regex pattern matching
+- SQLAlchemy: For database operations
+- Custom modules: Config, Evaluation model, db
+
+Maintenance Notes:
+----------------
+- Regular updates needed for evaluation criteria
+- API key rotation should be implemented
+- Consider adding logging for debugging
+- May need periodic review of scoring patterns
+
+Future Improvements:
+-------------------
+1. Add input validation
+2. Implement retry mechanism for API calls
+3. Add comprehensive error logging
+4. Consider caching frequently used evaluations
+5. Add unit tests for score extraction
+6. Implement batch processing capability
+"""

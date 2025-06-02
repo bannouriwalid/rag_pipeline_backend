@@ -101,3 +101,91 @@ def get_validated_responses():
                 "validation_created_at": validated_responses[i].created_at
             })
     return jsonify(results)
+
+"""
+Code Report: api/user_routes.py
+
+1. Overview
+-----------
+This file implements a Flask Blueprint for user-related API endpoints in a RAG (Retrieval-Augmented Generation) pipeline backend.
+The module handles user interactions, conversation management, and response generation/validation.
+
+2. Dependencies
+--------------
+- Flask: Web framework
+- Database models: User, Conversation, Message, Response, ValidatedResponse
+- Services: response_generation, retrieval
+
+3. API Endpoints
+---------------
+a) POST /ask
+   - Purpose: Handles user questions and generates AI responses
+   - Input: JSON with user_id and question
+   - Process:
+     * Validates user existence
+     * Creates/retrieves conversation
+     * Saves user message
+     * Runs RAG pipeline (retrieval + response generation)
+     * Saves generated response
+   - Output: JSON with generated answer
+
+b) GET /conversation
+   - Purpose: Retrieves conversation history
+   - Input: user_id as query parameter
+   - Process:
+     * Validates user existence
+     * Retrieves all messages and responses
+     * Orders by creation time
+   - Output: JSON array of Q&A pairs with timestamps
+
+c) GET /inbox
+   - Purpose: Retrieves validated responses
+   - Input: user_id as query parameter
+   - Process:
+     * Validates user existence
+     * Retrieves validated responses
+     * Includes original questions and validation details
+   - Output: JSON array of validated Q&A pairs
+
+4. Data Flow
+-----------
+- User input → Message storage → RAG processing → Response storage
+- Conversation tracking across multiple interactions
+- Validation status tracking for responses
+
+5. Error Handling
+----------------
+- User not found: Returns 404 status
+- Empty conversations: Returns empty arrays
+- Basic input validation for required fields
+
+6. Database Integration
+----------------------
+- Uses SQLAlchemy ORM
+- Maintains relationships between:
+  * Users and Conversations
+  * Conversations and Messages
+  * Messages and Responses
+  * Responses and ValidatedResponses
+
+7. Security Considerations
+-------------------------
+- User authentication required (user_id validation)
+- Input validation for required fields
+- No direct exposure of internal data structures
+
+8. Performance Considerations
+---------------------------
+- Efficient database queries with proper indexing
+- Ordered retrieval of conversation history
+- Batch processing of validated responses
+
+9. Future Improvements
+---------------------
+- Add pagination for conversation history
+- Implement rate limiting
+- Add more robust error handling
+- Consider caching frequently accessed data
+- Add input sanitization
+- Implement proper authentication middleware
+"""

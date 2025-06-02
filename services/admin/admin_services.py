@@ -83,3 +83,63 @@ def trigger_evaluation(generate_qa):
     # average = sum_score / len(all_questions)
     # print(average)
     return {"hi": 1}
+
+"""
+Code Report for admin_services.py
+
+1. File Overview:
+   - This file contains administrative services for managing a knowledge base system
+   - Located in: services/admin/admin_services.py
+   - Primary purpose: Handle knowledge base management, settings, and evaluation
+
+2. Key Components:
+   a) Constants:
+      - ENV_FILE: Points to .env file for configuration
+      - qa_folder: Directory for generated Q&A pairs
+      - raw_json_files_folder: Directory for raw JSON files
+
+   b) Core Functions:
+      - recreate_initial_state(): Rebuilds the initial knowledge base
+      - add_new_text_file(): Adds new disease data to the knowledge base
+      - get_settings(): Retrieves current configuration settings
+      - update_settings(): Updates configuration settings
+      - trigger_evaluation(): Handles evaluation process and Q&A generation
+
+3. Dependencies:
+   - External: json, time, pathlib, dotenv, os
+   - Internal: 
+     * services.admin.bechmarking
+     * services.admin.buiding_augmenting_knowledge_base
+     * config.Config
+
+4. Key Features:
+   - Environment variable management
+   - Knowledge base manipulation
+   - Q&A pair generation
+   - Evaluation system (partially implemented)
+   - File system operations for JSON handling
+
+5. Areas for Improvement:
+   - Error handling could be enhanced
+   - Evaluation system is partially commented out
+   - Hard-coded sleep time (10s) in trigger_evaluation
+   - Missing type hints for some functions
+   - Some functions lack docstrings
+
+6. Security Considerations:
+   - Environment file handling is present
+   - File operations use proper encoding
+   - No direct exposure of sensitive data
+
+7. Performance Notes:
+   - File operations are synchronous
+   - Sleep timer in evaluation process might impact performance
+   - JSON processing is done in memory
+
+8. Maintenance Status:
+   - Code is functional but has some incomplete features
+   - Evaluation system needs completion
+   - Some functions return placeholder values
+
+Last Updated: [Current Date]
+"""

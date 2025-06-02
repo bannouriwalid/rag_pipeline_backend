@@ -59,3 +59,91 @@ def validate_response(response_id):
     # implement notify_user(user_id, message)
 
     return jsonify({"message": "Response validated", "response_id": response.id})
+
+"""
+Code Report: Doctor Routes Module
+================================
+
+Overview:
+---------
+This module implements a Flask Blueprint for doctor-specific API endpoints, handling the validation
+and management of AI-generated medical responses.
+
+Dependencies:
+------------
+- Flask: Blueprint, request, jsonify
+- Local Models: ValidatedResponse, Response, Message
+- Database: SQLAlchemy (db)
+
+Endpoints:
+----------
+1. GET /inbox
+   - Purpose: Retrieves all pending responses awaiting doctor validation
+   - Returns: List of pending responses with:
+     * response_id
+     * question text
+     * generated answer
+     * creation timestamp
+     * conversation_id
+   - Status Codes: 200 (success)
+
+2. POST /validate/<response_id>
+   - Purpose: Validates or corrects an AI-generated response
+   - Parameters:
+     * response_id (path parameter)
+     * confirmed (boolean)
+     * correction (string, optional)
+   - Validation Rules:
+     * confirmed must be true or false
+     * correction required if confirmed is false
+   - Status Codes:
+     * 200: Successful validation
+     * 400: Invalid input or already validated
+     * 404: Response not found
+
+Database Models Used:
+-------------------
+1. Response
+   - Fields: id, status, generated_answer, created_at, conversation_id
+   - Status Values: "pending", "validated"
+
+2. ValidatedResponse
+   - Fields: response_id, confirmed, correction
+   - Stores doctor's validation decision and corrections
+
+3. Message
+   - Fields: id, text, conversation_id
+   - Stores the original question text
+
+Security Considerations:
+----------------------
+- No authentication middleware implemented
+- Consider adding:
+  * Doctor authentication
+  * Role-based access control
+  * Input sanitization
+  * Rate limiting
+
+Future Improvements:
+-------------------
+1. Implement user notification system
+2. Add pagination for inbox endpoint
+3. Add filtering options for responses
+4. Implement audit logging
+5. Add response validation metrics
+6. Implement caching for frequently accessed data
+
+Error Handling:
+--------------
+- Basic error handling implemented
+- Returns appropriate HTTP status codes
+- Provides descriptive error messages
+
+Performance Considerations:
+-------------------------
+- Uses SQLAlchemy ORM for database operations
+- Consider adding:
+  * Database indexing on frequently queried fields
+  * Response caching
+  * Query optimization for large datasets
+"""

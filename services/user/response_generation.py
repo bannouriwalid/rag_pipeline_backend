@@ -119,3 +119,73 @@ def generate_response(descriptions, question, is_evaluated=False):
             print(f"An error occurred while evaluating the answer: {e}")
 
     return full_response
+
+
+"""
+Code Report: Response Generation Module
+=====================================
+
+Overview:
+---------
+This module implements a medical knowledge graph-based response generation system using NVIDIA's API.
+It provides functionality to convert knowledge graph data into natural language responses for medical queries.
+
+Key Components:
+--------------
+1. textualize(descriptions)
+   - Converts knowledge graph nodes and relationships into coherent text
+   - Uses NVIDIA's API for text generation
+   - Handles error cases gracefully
+
+2. generate_response(descriptions, question, is_evaluated=False)
+   - Main function for generating responses to medical queries
+   - Combines knowledge graph textualization with question answering
+   - Supports optional response evaluation
+   - Implements streaming response generation
+   - Includes post-processing to remove unwanted patterns
+
+3. Helper Functions:
+   - construct_textualize_prompt_messages(): Prepares prompts for knowledge graph textualization
+   - construct_generation_prompt_messages(): Prepares prompts for response generation
+
+Technical Details:
+----------------
+- Uses OpenAI client with NVIDIA API integration
+- Implements streaming responses for better user experience
+- Includes error handling and logging
+- Uses regex for response cleaning
+- Configurable through Config class
+
+Dependencies:
+------------
+- openai: For API client implementation
+- config: For configuration management
+- re: For regular expression operations
+- services.user.evaluation: For response evaluation
+
+Security & Performance:
+----------------------
+- API keys managed through Config class
+- Streaming implementation for efficient response generation
+- Error handling for API failures
+- Response cleaning for consistent output
+
+Areas for Improvement:
+---------------------
+1. Add retry mechanism for API calls
+2. Implement caching for frequently asked questions
+3. Add more comprehensive logging
+4. Consider implementing rate limiting
+5. Add input validation for descriptions and questions
+
+Usage Example:
+-------------
+```python
+descriptions = [nodes, edges]
+question = "What are the symptoms of asthma?"
+response = generate_response(descriptions, question, is_evaluated=True)
+```
+
+Note: This module is specifically designed for medical knowledge graph processing and should be used with appropriate medical context validation.
+"""
+

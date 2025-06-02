@@ -99,3 +99,73 @@ def sbert_text2embedding(model, tokenizer, device, text):
 
 load_model = load_sbert
 load_text2embedding = sbert_text2embedding
+
+"""
+Code Report: services/embedding_models.py
+
+1. Overview:
+This module implements a sentence embedding system using transformer-based models, specifically designed for generating embeddings from text data. It provides functionality to load pre-trained models and convert text into vector representations.
+
+2. Key Components:
+
+a) Dataset Class:
+- Custom PyTorch Dataset implementation
+- Handles input_ids and attention masks
+- Supports batch processing of text data
+- Implements standard Dataset interface methods (__len__, __getitem__)
+
+b) Sentence_Transformer Class:
+- Inherits from nn.Module
+- Uses pre-trained transformer models (via AutoModel)
+- Implements mean pooling for sentence embeddings
+- Includes normalization of embeddings
+- Key methods:
+  * mean_pooling: Computes weighted average of token embeddings
+  * forward: Processes input through BERT and generates normalized embeddings
+
+c) Utility Functions:
+- load_sbert():
+  * Initializes model and tokenizer
+  * Supports multi-GPU processing
+  * Handles device placement (CPU/GPU)
+  * Returns model, tokenizer, and device
+
+- sbert_text2embedding():
+  * Converts text to embeddings
+  * Handles batch processing
+  * Returns tensor of embeddings
+
+3. Technical Details:
+- Uses PyTorch for deep learning operations
+- Implements HuggingFace's transformers library
+- Supports CUDA acceleration
+- Configurable batch size and model repository
+- Handles empty text inputs gracefully
+
+4. Dependencies:
+- torch
+- transformers
+- config (custom module)
+
+5. Performance Considerations:
+- Implements batch processing for efficiency
+- Supports GPU acceleration
+- Uses data parallel processing when multiple GPUs available
+- Implements no_grad context for inference
+
+6. Usage:
+The module provides two main functions:
+- load_model: Initializes the embedding model
+- load_text2embedding: Converts text to embeddings
+
+7. Configuration:
+- Uses external Config class for:
+  * EMBEDDING_MODEL: Pre-trained model repository
+  * EMBEDDING_BATCH_SIZE: Batch size for processing
+
+8. Best Practices:
+- Implements proper error handling
+- Uses type hints and clear documentation
+- Follows PyTorch design patterns
+- Implements efficient memory management
+"""

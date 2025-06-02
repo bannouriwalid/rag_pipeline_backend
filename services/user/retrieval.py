@@ -165,3 +165,94 @@ def retrieval(question, k=1):
         descriptions.append(desc)
 
     return sub_graphs, descriptions
+
+"""
+Code Report: services/user/retrieval.py
+
+1. Overview
+-----------
+This module implements a graph-based retrieval system that uses PCST (Prize-Collecting Steiner Tree) algorithm
+to find relevant subgraphs from a knowledge base based on semantic similarity to a query.
+
+2. Key Components
+----------------
+a) Main Functions:
+   - retrieval_via_pcst(): Implements the PCST algorithm for subgraph extraction
+   - retrieval(): Main entry point for the retrieval system
+
+b) Dependencies:
+   - torch_geometric: For graph data structures
+   - pcst_fast: For PCST algorithm implementation
+   - milvus: For vector similarity search
+   - pandas: For data manipulation
+   - numpy: For numerical operations
+
+3. Data Flow
+-----------
+1. Input: Natural language question
+2. Process:
+   - Question is embedded using a pre-trained model
+   - Similar graphs are retrieved from Milvus
+   - PCST algorithm extracts relevant subgraphs
+3. Output: Subgraphs and their textual descriptions
+
+4. Key Features
+--------------
+- Semantic similarity search using vector embeddings
+- Graph-based knowledge representation
+- Prize-collecting Steiner tree algorithm for subgraph extraction
+- Support for both node and edge relevance scoring
+- Virtual node handling for edge selection
+
+5. Configuration
+---------------
+- Uses Config class for:
+  - Knowledge base paths (nodes, edges, graphs)
+  - Milvus connection details
+  - Collection names
+
+6. Performance Considerations
+---------------------------
+- Implements top-k filtering for both nodes and edges
+- Uses cosine similarity for relevance scoring
+- Efficient graph operations using PyTorch Geometric
+- Vector similarity search using Milvus
+
+7. Error Handling
+----------------
+- Collection loading verification
+- File existence checks
+- Empty graph validation
+- Graceful handling of missing data
+
+8. Dependencies and Requirements
+------------------------------
+- PyTorch
+- torch_geometric
+- pcst_fast
+- pandas
+- numpy
+- Milvus client
+- Custom embedding models
+
+9. Usage Example
+---------------
+```python
+sub_graphs, descriptions = retrieval("What is the relationship between X and Y?", k=1)
+```
+
+10. Limitations
+--------------
+- Requires pre-computed graph embeddings
+- Depends on Milvus for vector similarity search
+- Fixed parameters for PCST algorithm
+- Memory intensive for large graphs
+
+11. Future Improvements
+----------------------
+- Parameter optimization for PCST algorithm
+- Dynamic top-k selection
+- Caching mechanism for frequently accessed graphs
+- Batch processing support
+- Enhanced error handling and logging
+"""

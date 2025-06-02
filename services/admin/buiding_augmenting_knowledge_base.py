@@ -689,3 +689,115 @@ def add_new_disease(complete_file_path):
     extract_graphs_from_directory(refined_folder, spo_folder + '/graphs.json', verbose=True)
     create_nodes_edges_folders()
     graph_embedding_store()
+
+"""
+# Detailed Code Report: Building and Augmenting Knowledge Base
+
+## Overview
+This module implements a comprehensive pipeline for building and maintaining a medical knowledge base focused on respiratory diseases. The system processes raw medical data, extracts structured information, and creates a graph-based knowledge representation that can be queried and updated.
+
+## Key Components
+
+### 1. Data Processing Pipeline
+- Raw data collection and organization
+- SPO (Subject-Predicate-Object) triple extraction
+- Normalization and deduplication
+- Refinement and validation
+- Graph construction and embedding
+
+### 2. Main Functions
+
+#### Data Collection and Initial Processing
+- `initial_scrapping()`: Initiates data collection
+- `textualize_json()`: Converts JSON data to text format
+- `spo_extraction()`: Extracts SPO triples from text using LLM
+
+#### Data Cleaning and Normalization
+- `normalize_and_deduplicate()`: Removes duplicates and normalizes terms
+- `refine_spo_from_csv()`: Further refines and validates SPO triples
+- `summarize_refinement_process()`: Provides statistics on data refinement
+
+#### Graph Construction and Storage
+- `extract_graphs_from_directory()`: Creates graph representations
+- `create_nodes_edges_folders()`: Organizes graph components
+- `graph_embedding_store()`: Generates and stores graph embeddings
+
+### 3. Data Flow
+1. Raw Data → Text Conversion
+2. Text → SPO Triples
+3. SPO Triples → Normalized Triples
+4. Normalized Triples → Refined Triples
+5. Refined Triples → Graph Structure
+6. Graph Structure → Vector Embeddings
+
+### 4. Storage Structure
+- `/raw_files`: Original data
+- `/spo`: Subject-Predicate-Object triples
+  - `/raw`: Initial extractions
+  - `/normalized&deduplicated`: Cleaned data
+  - `/refined`: Final validated triples
+- `/nodes`: Graph node definitions
+- `/edges`: Graph edge definitions
+- `/graphs`: Graph embeddings
+- `/graphs_json`: Graph representations
+
+### 5. Key Features
+- Automated data processing pipeline
+- LLM-based information extraction
+- Graph-based knowledge representation
+- Vector embeddings for similarity search
+- Milvus integration for vector storage
+- Support for incremental updates
+
+### 6. Dependencies
+- OpenAI API for LLM processing
+- NetworkX for graph operations
+- PyTorch for embeddings
+- Milvus for vector storage
+- Pandas for data manipulation
+
+### 7. Error Handling
+- Comprehensive error checking in data processing
+- Validation at each pipeline stage
+- Graceful handling of missing or malformed data
+
+### 8. Performance Considerations
+- Batch processing for large datasets
+- Efficient graph construction
+- Optimized embedding generation
+- Vectorized operations where possible
+
+### 9. Maintenance and Updates
+- Support for adding new diseases
+- Incremental knowledge base updates
+- Data validation and quality checks
+
+### 10. Limitations and Future Improvements
+- Dependency on external LLM API
+- Potential for information loss in normalization
+- Limited to respiratory diseases
+- Could benefit from parallel processing
+- Potential for enhanced validation rules
+
+## Usage Examples
+1. Building initial knowledge base:
+   ```python
+   build_initial_knowledge_base()
+   ```
+
+2. Adding new disease data:
+   ```python
+   add_new_disease("path/to/disease_data.json")
+   ```
+
+## Security Considerations
+- API key management
+- Data privacy in medical information
+- Secure storage of embeddings
+
+## Best Practices
+- Regular data validation
+- Backup of processed data
+- Monitoring of API usage
+- Documentation of changes
+"""

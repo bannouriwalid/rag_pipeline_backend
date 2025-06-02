@@ -121,8 +121,8 @@ def CDC_scrapping(save_path, disease, desired_pages):
                             .replace(".,", ".")
                             .replace(":,", ":")
                             .replace("\"", "")
-                            .replace("”", "")
-                            .replace("“", "")
+                            .replace("\"", "")
+                            .replace("\"", "")
                             .strip()
                         )
 
@@ -284,3 +284,99 @@ def initial_scrapping():
                                             "treatment": ["COVID-19 Treatment Options", "Preventing COVID-19"],
                                             "prevention": ["Core Prevention Strategies", "What to watch out for"]
                                             })
+
+"""
+Code Report: Web Scraping Module for Medical Information
+
+1. Overview
+-----------
+This module implements a web scraping system for collecting medical information from three major health organizations:
+- World Health Organization (WHO)
+- Centers for Disease Control and Prevention (CDC)
+- National Institutes of Health (NIH)
+
+2. Core Components
+-----------------
+a) WHO_scrapping()
+   - Scrapes WHO fact sheets for specific diseases
+   - Extracts content from specified sections
+   - Saves data in JSON format
+   - Handles HTML parsing with BeautifulSoup
+   - Includes error handling and duplicate file checking
+
+b) CDC_scrapping()
+   - Scrapes CDC disease pages
+   - Processes multiple sub-pages per disease
+   - Extracts content from dfe-section divs
+   - Handles various HTML elements (h2, h3, p, li)
+   - Implements robust text cleaning
+
+c) NIH_scrapping()
+   - Scrapes NIH health pages
+   - Processes component sections
+   - Handles main titles and subsections
+   - Implements specific HTML structure parsing
+   - Includes comprehensive error handling
+
+3. Supporting Functions
+----------------------
+- scrapping(): Orchestrates the scraping process for a single disease
+- initial_scrapping(): Initializes scraping for multiple diseases:
+  * Asthma
+  * COPD
+  * Pneumonia
+  * Tuberculosis
+  * COVID-19
+
+4. Data Storage
+--------------
+- Uses JSON format for data storage
+- Implements organized directory structure
+- Includes duplicate file checking
+- Maintains URL references in saved data
+
+5. Error Handling
+----------------
+- Implements try-except blocks for network requests
+- Handles missing content gracefully
+- Includes timeout protection
+- Provides informative error messages
+
+6. Text Processing
+-----------------
+- Implements comprehensive text cleaning
+- Handles special characters and whitespace
+- Maintains proper formatting of lists and paragraphs
+- Preserves important punctuation
+
+7. Dependencies
+--------------
+- BeautifulSoup4: HTML parsing
+- requests: HTTP requests
+- json: Data serialization
+- os: File system operations
+- pathlib: Path handling
+
+8. Configuration
+---------------
+- Uses Config class for path configuration
+- Implements flexible directory structure
+- Supports multiple disease configurations
+
+9. Best Practices
+----------------
+- Implements modular design
+- Uses consistent error handling
+- Maintains clean code structure
+- Includes comprehensive documentation
+- Implements rate limiting through timeouts
+
+10. Areas for Improvement
+------------------------
+- Add rate limiting between requests
+- Implement retry mechanism for failed requests
+- Add logging system
+- Implement proxy support
+- Add data validation
+- Implement async requests for better performance
+"""
