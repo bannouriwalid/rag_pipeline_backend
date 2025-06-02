@@ -1,11 +1,21 @@
+import json
 import re
 from config import Config
 from openai import OpenAI
 from models import Evaluation
 from db import db
 
+evaluation_folder = f'{Config.EVAL}'
 
-def evaluate_response(question, context, response, label=None):
+
+def evaluate_response(question, context, response, file_name="", label=None, report=False):
+    if report:
+        with open(file_name, "a") as f:
+            f.write(f"Question: {question}\n")
+            f.write(f"Context: {context}\n")
+            f.write(f"Response: {response}\n")
+            f.write(f"Label: {label}\n")
+
     evaluation_prompt = f"""You are an expert evaluator of medical knowledge responses. Evaluate the following response based on three criteria:
 
 1. Clarity (0-5): How clear and well-structured is the response? 0 is the worst, 5 is the best.
@@ -108,15 +118,23 @@ OVERALL FEEDBACK: [average score] and 2-3 sentences summarizing the evaluation]
         except ValueError:
             scores[key] = None
 
-    evaluation = Evaluation(question=question, context=context,
-                            response=response, label=label,
-                            clarity_score=scores["clarity_score"],
-                            exactitude_score=scores["exactitude_score"],
-                            context_adherence_score=scores["context_adherence_score"],
-                            relevance_score=scores["relevance_score"],
-                            completeness_score=scores["completeness_score"],
-                            logical_flow_score=scores["logical_flow_score"],
-                            uncertainty_handling_score=scores["uncertainty_handling_score"],
-                            overall_feedback=scores["overall_feedback"])
-    db.session.add(evaluation)
-    db.session.commit()
+    if report:
+        with open(file_name, "a") as f:
+            f.write("\nScores:\n")
+            f.write(json.dumps(scores, indent=2))
+            f.write("\n\n" + "="*50 + "\n\n")
+
+        return scores
+    else:
+        evaluation = Evaluation(question=question, context=context,
+                                response=response, label=label,
+                                clarity_score=scores["clarity_score"],
+                                exactitude_score=scores["exactitude_score"],
+                                context_adherence_score=scores["context_adherence_score"],
+                                relevance_score=scores["relevance_score"],
+                                completeness_score=scores["completeness_score"],
+                                logical_flow_score=scores["logical_flow_score"],
+                                uncertainty_handling_score=scores["uncertainty_handling_score"],
+                                overall_feedback=scores["overall_feedback"])
+        db.session.add(evaluation)
+        db.session.commit()

@@ -27,7 +27,7 @@ def ask_question():
     # Save message
     message = Message(conversation_id=conversation.id, text=question)
     db.session.add(message)
-
+    db.session.commit()
     # Run RAG pipeline
     sub_graphs, descriptions = retrieval(question, 1)
     answer = generate_response(descriptions, question, True)

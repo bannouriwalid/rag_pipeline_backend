@@ -1,0 +1,250 @@
+[
+  {
+    "question": "What bacterium primarily causes tuberculosis in the United States?",
+    "answer": "Mycobacterium tuberculosis is the primary cause of TB disease in the United States, though other mycobacteria like Mycobacterium bovis can also cause TB."
+  },
+  {
+    "question": "What are the two main forms of tuberculosis infection?",
+    "answer": "The two main forms are inactive TB (latent TB infection) and active TB disease. Inactive TB has no symptoms and is not contagious, while active TB is symptomatic and can be spread to others."
+  },
+  {
+    "question": "What are common symptoms of active tuberculosis disease?",
+    "answer": "Symptoms include a persistent cough lasting three weeks or more, chest pain, coughing up blood, weakness, weight loss, loss of appetite, chills, fever, and night sweats."
+  },
+  {
+    "question": "Who is at higher risk for developing tuberculosis?",
+    "answer": "Those at higher risk include individuals born in or traveling to TB-endemic countries, residents of group settings like shelters or prisons, close contacts of active TB patients, and people with weakened immune systems due to conditions like HIV, diabetes, or cancer."
+  },
+  {
+    "question": "How does tuberculosis typically spread from person to person?",
+    "answer": "TB spreads through the air when an individual with active TB disease of the lungs or throat coughs, speaks, or sings, releasing germs that can be inhaled by others, especially in poorly ventilated areas."
+  },
+  {
+    "question": "What is the recommended approach to prevent active TB disease in individuals with inactive TB?",
+    "answer": "Treating inactive TB with appropriate medication is the best way to prevent progression to active TB disease."
+  },
+  {
+    "question": "What tests are used to diagnose tuberculosis infection?",
+    "answer": "Two types of tests are the TB blood test (IGRA) and the TB skin test. The blood test is preferred for those who have received the BCG vaccine to avoid false-positive results."
+  },
+  {
+    "question": "What is the role of the BCG vaccine in tuberculosis prevention?",
+    "answer": "The BCG vaccine is primarily used in countries with high TB prevalence to protect children from severe forms of TB, such as TB meningitis. It is not routinely used in the United States."
+  },
+  {
+    "question": "Why is it crucial to complete the full treatment course for active TB disease?",
+    "answer": "Completing the full treatment course ensures the individual recovers, prevents disease progression, and reduces the risk of transmitting TB to others."
+  },
+  {
+    "question": "What are the common symptoms of active pulmonary tuberculosis?",
+    "answer": "Symptoms include a bad cough lasting 3 weeks or longer, chest pain, coughing up blood or sputum, weakness, fatigue, weight loss, loss of appetite, chills, fever, and night sweats."
+  },
+  {
+    "question": "How does active TB disease of the lymph nodes typically present?",
+    "answer": "It may cause a firm, red, or purple swelling under the skin."
+  },
+  {
+    "question": "What symptom is associated with TB disease of the kidney?",
+    "answer": "Blood in the urine."
+  },
+  {
+    "question": "What are the possible symptoms of TB meningitis?",
+    "answer": "Headache or confusion."
+  },
+  {
+    "question": "Can inactive TB cause symptoms?",
+    "answer": "No, people with inactive TB do not have symptoms of TB disease, but without treatment, they can develop active TB."
+  },
+  {
+    "question": "What should someone do if they suspect they have symptoms of active TB disease?",
+    "answer": "Contact a healthcare provider or local health department and ask about TB testing."
+  },
+  {
+    "question": "What bacterium is responsible for causing tuberculosis?",
+    "answer": "Tuberculosis is caused by the bacterium Mycobacterium tuberculosis."
+  },
+  {
+    "question": "How do TB germs typically enter the body?",
+    "answer": "TB germs enter the body when a person breathes them in, often settling in the lungs before potentially spreading to other parts of the body."
+  },
+  {
+    "question": "What is the difference between inactive TB and active TB disease?",
+    "answer": "Inactive TB (latent TB infection) means the person is infected but not sick, has no symptoms, and cannot spread TB. Active TB disease occurs when the immune system fails to stop the bacteria, causing symptoms and making the person contagious."
+  },
+  {
+    "question": "How can active TB disease develop from inactive TB?",
+    "answer": "Without treatment, inactive TB can progress to active TB disease if the immune system is unable to prevent the bacteria from multiplying."
+  },
+  {
+    "question": "How does active TB disease spread to others?",
+    "answer": "TB germs spread through the air when a person with active TB of the lungs or throat coughs, speaks, or sings, and others inhale these germs, especially in poorly ventilated areas."
+  },
+  {
+    "question": "What environments increase the risk of TB transmission?",
+    "answer": "Indoor areas or places with poor air circulation, such as closed vehicles, increase the risk of TB germs spreading."
+  },
+  {
+    "question": "Can TB be spread through casual contact like shaking hands?",
+    "answer": "No, TB germs are not spread by shaking hands, sharing food or drink, touching bed linens or toilet seats, sharing toothbrushes, or kissing."
+  },
+  {
+    "question": "What is the potential outcome of untreated active TB disease?",
+    "answer": "Without treatment, active TB disease can be fatal."
+  },
+  {
+    "question": "What is the primary purpose of the BCG vaccine?",
+    "answer": "The BCG vaccine is primarily used to protect against tuberculosis (TB) disease, particularly severe forms like TB meningitis in infants and young children."
+  },
+  {
+    "question": "Where is the BCG vaccine commonly administered?",
+    "answer": "The BCG vaccine is commonly given in countries where TB is prevalent, typically to infants and small children, but it is not generally used in the United States."
+  },
+  {
+    "question": "What happens to the protective effect of the BCG vaccine over time?",
+    "answer": "The protection provided by the BCG vaccine weakens over time."
+  },
+  {
+    "question": "Why is it important to inform healthcare providers about past BCG vaccination when getting tested for TB?",
+    "answer": "Informing healthcare providers about past BCG vaccination is crucial because the vaccine can cause a false-positive result on the TB skin test, which may lead to unnecessary further testing or treatment."
+  },
+  {
+    "question": "What type of TB test is recommended for individuals who have received the BCG vaccine?",
+    "answer": "TB blood tests are preferred for individuals who have received the BCG vaccine, as they are not affected by the vaccination, unlike the TB skin test."
+  },
+  {
+    "question": "Why is it important to get tested for TB even if you don't feel sick?",
+    "answer": "Getting tested for TB is crucial because TB germs can live in the body for years without causing symptoms (inactive TB), and early detection helps prevent transmission and ensures timely treatment."
+  },
+  {
+    "question": "Who is at higher risk of being exposed to TB germs?",
+    "answer": "Individuals at higher risk include those born in or traveling to TB-endemic countries, living in group settings (e.g., shelters, prisons), recent contact with active TB patients, or working in high-risk environments like hospitals or nursing homes."
+  },
+  {
+    "question": "What factors increase the risk of developing active TB disease after infection?",
+    "answer": "Factors increasing the risk of active TB include a weakened immune system (due to medications, diabetes, cancer, or HIV), recent TB infection (within 2 years), being a young child or elderly, injecting illegal drugs, or prior incomplete TB treatment."
+  },
+  {
+    "question": "What are the two main types of TB tests?",
+    "answer": "The two main types of TB tests are the TB blood test (interferon-gamma release assays or IGRAs) and the TB skin test. The blood test is preferred for those who have received the BCG vaccine."
+  },
+  {
+    "question": "When might additional tests be necessary after a TB test?",
+    "answer": "Additional tests (e.g., chest x-ray, sputum test) are needed if the TB blood or skin test is positive, or if the test is negative but symptoms of active TB are present."
+  },
+  {
+    "question": "What should you do if you test positive for TB?",
+    "answer": "If you test positive, your healthcare provider will conduct further tests to determine if you have inactive or active TB. Keep a record of your positive result, as future tests may also be positive, even after treatment."
+  },
+  {
+    "question": "How can TB germs spread from person to person?",
+    "answer": "TB germs spread through the air when a person with active TB disease of the lungs or throat coughs, speaks, or sings. These germs can remain airborne for several hours, especially in indoor areas or places with poor air circulation."
+  },
+  {
+    "question": "What are the common symptoms of active TB disease?",
+    "answer": "Common symptoms of active TB disease include cough, chest pain, and coughing up blood or sputum (phlegm). Symptoms vary depending on where the TB germs are growing in the body."
+  },
+  {
+    "question": "Can a person with latent TB infection spread TB to others?",
+    "answer": "No, only individuals with active TB disease can spread TB germs to others. Those with latent TB infection are not contagious."
+  },
+  {
+    "question": "What is the purpose of a contact investigation in TB control?",
+    "answer": "A contact investigation (or contact tracing) identifies people exposed to someone with active TB disease to prevent further transmission. It involves testing contacts for TB and providing treatment if necessary."
+  },
+  {
+    "question": "How can you help prevent the spread of TB if you have active TB disease?",
+    "answer": "If you have active TB disease, you can help prevent spread by participating in contact investigations, taking prescribed medication, and following infection control measures such as wearing a mask or staying home from work/school as advised."
+  },
+  {
+    "question": "What should you do if you think you've been exposed to someone with active TB disease?",
+    "answer": "Contact your healthcare provider or local/state health department for a TB blood test or skin test. Inform them about the time spent with the person who has active TB disease."
+  },
+  {
+    "question": "Are TB germs spread through casual contact like shaking hands or sharing food?",
+    "answer": "No, TB germs are not spread by shaking hands, sharing food/drinks, touching bed linens/toilet seats, sharing toothbrushes, or kissing."
+  },
+  {
+    "question": "Who is most likely to be infected by someone with active TB disease?",
+    "answer": "People who spend time with the individual daily, such as family members, friends, coworkers, or classmates, are at higher risk of infection."
+  },
+  {
+    "question": "Who is at very high risk of developing active TB disease after infection?",
+    "answer": "People with weakened immune systems due to certain medications or health conditions, such as HIV infection, are at very high risk and should receive treatment for inactive TB to prevent active disease."
+  },
+  {
+    "question": "What medications or conditions can weaken the immune system and increase TB risk?",
+    "answer": "These include HIV infection, substance use (e.g., injection drug use), treatments for rheumatoid arthritis or Crohn's disease, organ transplants, severe kidney disease, head and neck cancer, diabetes, corticosteroid use, silicosis, low body weight, and being a baby or young child."
+  },
+  {
+    "question": "In which countries is TB more common, increasing exposure risk?",
+    "answer": "Countries in Asia, Africa, and Latin America have higher TB prevalence, increasing the risk for those born in or frequently traveling to these areas."
+  },
+  {
+    "question": "What living or working environments increase TB exposure risk?",
+    "answer": "Large group settings like homeless shelters, prisons, jails, hospitals, correctional facilities, and nursing homes increase the risk of TB exposure."
+  },
+  {
+    "question": "Why are children under age five at higher risk for TB disease?",
+    "answer": "Children under five often have weaker immune systems, making them more susceptible to developing active TB disease if infected."
+  },
+  {
+    "question": "What is the most effective way to prevent active TB disease in individuals with inactive TB?",
+    "answer": "Treating inactive TB is the best way to prevent active TB disease, especially for those with weakened immune systems due to medications or health conditions."
+  },
+  {
+    "question": "Why is it crucial for individuals with active TB disease to complete their medication regimen?",
+    "answer": "Stopping treatment early or missing doses can be dangerous, as it may lead to treatment failure, drug resistance, or continued infectiousness."
+  },
+  {
+    "question": "What measures should be taken at home to prevent the spread of TB germs from an infected individual?",
+    "answer": "Measures include covering the mouth when coughing, disposing of tissues properly, avoiding close contact, sleeping in a separate room, and increasing ventilation by airing out the room or using a fan."
+  },
+  {
+    "question": "When can an individual with active TB disease safely return to work or school?",
+    "answer": "The healthcare provider will determine when it is safe to resume normal activities, based on the effectiveness of treatment and the individual's infectious status."
+  },
+  {
+    "question": "What is the role of healthcare settings in preventing TB transmission?",
+    "answer": "Healthcare settings should implement infection control plans, including administrative measures, environmental controls, and respiratory protective equipment, to minimize exposure risks."
+  },
+  {
+    "question": "What is the primary cause of tuberculosis (TB)?",
+    "answer": "Tuberculosis is caused by bacteria, primarily affecting the lungs, and is spread through the air when an infected person coughs, sneezes, or spits."
+  },
+  {
+    "question": "What percentage of the global population is estimated to be infected with TB bacteria?",
+    "answer": "About a quarter (25%) of the global population is estimated to have been infected with TB bacteria."
+  },
+  {
+    "question": "What is the typical treatment duration for TB disease?",
+    "answer": "TB disease is treated with special antibiotics taken daily for 4\u20136 months, and it is crucial to complete the full course to prevent drug resistance."
+  },
+  {
+    "question": "Which vaccine is used to prevent TB in certain countries?",
+    "answer": "The Bacille Calmette-Gu\u00e9rin (BCG) vaccine is given to babies or small children in certain countries to prevent TB, particularly protecting against serious forms of the disease."
+  },
+  {
+    "question": "What are common symptoms of TB disease?",
+    "answer": "Common symptoms of TB disease include prolonged cough (sometimes with blood), chest pain, weakness, fatigue, weight loss, fever, and night sweats."
+  },
+  {
+    "question": "How can TB transmission be prevented in healthcare settings?",
+    "answer": "Special measures such as using respirators and ensuring proper ventilation are important to reduce TB infection in healthcare facilities and other institutions."
+  },
+  {
+    "question": "What are the risks associated with stopping TB treatment early?",
+    "answer": "Stopping TB medications early or without medical advice can lead to drug-resistant TB, making the infection harder to treat."
+  },
+  {
+    "question": "Which regions had the highest number of new TB cases in 2023?",
+    "answer": "In 2023, the largest number of new TB cases occurred in the WHO South-East Asia Region (45%), followed by the African Region (24%) and the Western Pacific Region (17%)."
+  },
+  {
+    "question": "What conditions increase a person\u2019s risk for developing TB disease?",
+    "answer": "Conditions that increase TB risk include diabetes, weakened immune system (e.g., HIV/AIDS), malnutrition, tobacco use, and harmful alcohol use."
+  },
+  {
+    "question": "How is TB diagnosed according to WHO recommendations?",
+    "answer": "WHO recommends rapid molecular diagnostic tests (e.g., Xpert MTB/RIF Ultra, Truenat assays) as the initial test for TB, alongside tuberculin skin tests (TST) or interferon gamma release assays (IGRA) for infection identification."
+  }
+]

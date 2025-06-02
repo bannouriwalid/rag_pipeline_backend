@@ -1,0 +1,55 @@
+===== Evaluation Report =====
+Generated on: 2025-06-02_17_20_00
+Number of questions evaluated: 374
+
+This report presents the automatic evaluation of generated answers across multiple criteria:
+clarity, exactitude, adherence to context, relevance, completeness, logical flow, and handling of uncertainty.
+
+Question: What are the common symptoms of asthma?
+Context: ['node_id,node_attr\r\n0,chronic-obstructive-pulmonary-disease-copd\r\n6,anorexia\r\n14,anxiety\r\n18,frequent coughing or wheezing\r\n31,fatigue\r\n32,depression\r\n72,persistent_shortness_of_breath\r\n99,asthma\r\n102,shortness of breath during everyday activities\r\n129,wheezing\r\n137,ongoing_cough\r\n139,persistent cough\r\n141,excessive phlegm production\r\n151,productive cough\r\n154,pediatric asthma\r\n168,tiredness\r\n172,cough\r\n204,cachexia\r\n207,dyspnea\r\n216,difficulty breathing\r\n220,inflammation\r\n249,chest tightness\r\n254,difficulty taking deep breaths\r\n258,shortness-of-breath\r\n265,airway_swelling\r\n266,comorbid asthma\r\n\nsrc,edge_attr,dst\r\n0,leads_to_complication,266\r\n0,has_risk_factor,154\r\n0,associated_with,99\r\n0,has_symptom,6\r\n0,has_symptom,14\r\n0,has_symptom,18\r\n0,has_symptom,31\r\n0,has_symptom,32\r\n0,has_symptom,72\r\n0,has_symptom,102\r\n0,has_symptom,129\r\n0,has_symptom,137\r\n0,has_symptom,139\r\n0,has_symptom,141\r\n0,has_symptom,151\r\n0,has_symptom,168\r\n0,has_symptom,172\r\n0,has_symptom,204\r\n0,has_symptom,207\r\n0,has_symptom,216\r\n0,has_symptom,220\r\n0,has_symptom,249\r\n0,has_symptom,254\r\n0,has_symptom,258\r\n0,has_symptom,265\r\n']
+Response: The common symptoms of asthma, as related to COPD, include frequent coughing or wheezing, wheezing, ongoing cough, persistent cough, productive cough, and chest tightness. Additionally, symptoms like shortness of breath during everyday activities, persistent shortness of breath, difficulty breathing, and dyspnea (which means difficulty breathing) are also mentioned. It's important to note that while these symptoms can occur in both asthma and COPD, the context specifically links them to COPD and its association with pediatric asthma and comorbid asthma.
+Label: Asthma symptoms include wheezing, breathlessness, chest tightness, and coughing, particularly at night or early in the morning.
+
+Scores:
+{
+  "clarity_score": 4.0,
+  "exactitude_score": 4.0,
+  "context_adherence_score": 3.5,
+  "relevance_score": 4.5,
+  "completeness_score": 4.0,
+  "logical_flow_score": 4.0,
+  "uncertainty_handling_score": 3.0,
+  "overall_feedback": 3.9
+}
+
+==================================================
+
+Question: What happens during an asthma attack?
+Context: ['node_id,node_attr\r\n0,chronic-obstructive-pulmonary-disease-copd\r\n3,emphysema\r\n28,infections\r\n48,pneumonia\r\n56,indoor air pollution\r\n81,air pollution\r\n86,tobacco smoking\r\n99,asthma\r\n113,tobacco exposure\r\n131,covid-19\r\n136,smoking\r\n152,occupational exposure to dusts\r\n154,pediatric asthma\r\n163,shingles\r\n170,alpha-1 antitrypsin deficiency\r\n177,tobacco smoke exposure\r\n208,cigarette smoking\r\n237,air pollutant exposure\r\n239,flu\r\n244,flare-ups\r\n274,pulmonary damage\r\n277,infection\r\n278,whooping-cough\r\n279,respiratory-syncytial-virus\r\n\nsrc,edge_attr,dst\r\n0,has_subtype,3\r\n0,has_risk_factor,154\r\n0,associated_with,99\r\n0,causes,244\r\n177,causes,274\r\n244,causes,48\r\n244,causes,131\r\n244,causes,278\r\n244,causes,163\r\n244,causes,239\r\n244,causes,279\r\n244,causes,28\r\n152,causes,0\r\n56,causes,0\r\n277,causes,244\r\n81,causes,0\r\n86,causes,0\r\n136,causes,0\r\n136,causes,274\r\n113,causes,0\r\n170,causes,274\r\n170,causes,0\r\n208,causes,0\r\n237,causes,274\r\n']
+Response: During an asthma attack, the airways in your lungs become inflamed, narrow, and swollen. This makes it harder for air to pass through, leading to symptoms like wheezing, coughing, shortness of breath, and chest tightness. It's like trying to breathe through a straw that's getting smaller, making it difficult to catch your breath.
+Label: During an asthma attack, the airways in the lungs swell, shrink, and produce mucus, leading to reduced airflow and difficulty breathing.
+
+Scores:
+{
+  "clarity_score": 4.0,
+  "exactitude_score": 4.0,
+  "context_adherence_score": 3.0,
+  "relevance_score": 5.0,
+  "completeness_score": 4.0,
+  "logical_flow_score": 5.0,
+  "uncertainty_handling_score": 3.0,
+  "overall_feedback": 4.1
+}
+
+==================================================
+
+
+===== Summary of Average Scores =====
+Clarity Score: 0.02
+Exactitude Score: 0.02
+Context Adherence Score: 0.02
+Relevance Score: 0.03
+Completeness Score: 0.02
+Logical Flow Score: 0.02
+Uncertainty Handling Score: 0.02
+Overall Feedback: 0.02

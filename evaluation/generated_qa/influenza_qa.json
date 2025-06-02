@@ -1,0 +1,126 @@
+[
+  {
+    "question": "What is seasonal influenza and how is it transmitted?",
+    "answer": "Seasonal influenza is an acute respiratory infection caused by influenza viruses, easily spread through coughing or sneezing. It is common worldwide and most recover without treatment."
+  },
+  {
+    "question": "What are the primary symptoms of influenza?",
+    "answer": "Symptoms include acute onset of fever, cough, sore throat, body aches, fatigue, headache, muscle and joint pain, severe malaise, and runny nose."
+  },
+  {
+    "question": "How long do influenza symptoms typically last?",
+    "answer": "Most people recover within a week, but the cough can persist for two weeks or more."
+  },
+  {
+    "question": "What is the recommended treatment approach for influenza?",
+    "answer": "Treatment focuses on symptom relief through rest and hydration. Medical care is necessary for severe cases or those with risk factors."
+  },
+  {
+    "question": "What are the four types of influenza viruses?",
+    "answer": "The four types are A, B, C, and D. Types A and B cause seasonal epidemics, while C causes mild infections and D primarily affects cattle."
+  },
+  {
+    "question": "How are influenza A viruses further classified?",
+    "answer": "Influenza A viruses are classified into subtypes based on surface proteins, with A(H1N1)pdm09 and A(H3N2) currently circulating in humans."
+  },
+  {
+    "question": "What distinguishes influenza B viruses from influenza A viruses?",
+    "answer": "Influenza B viruses are not classified into subtypes but into lineages, specifically B/Yamagata or B/Victoria."
+  },
+  {
+    "question": "Which influenza type is associated with pandemics?",
+    "answer": "Only influenza type A viruses are known to have caused pandemics."
+  },
+  {
+    "question": "What is the most effective method to prevent seasonal influenza?",
+    "answer": "Vaccination is the best way to prevent the disease."
+  },
+  {
+    "question": "What is the typical recovery time for most people with influenza symptoms?",
+    "answer": "Most people recover from fever and other influenza symptoms within a week without needing medical attention."
+  },
+  {
+    "question": "What are potential severe complications of influenza?",
+    "answer": "Influenza can lead to severe complications such as pneumonia and sepsis, especially in high-risk individuals."
+  },
+  {
+    "question": "Who is most at risk of hospitalization or death due to influenza in industrialized countries?",
+    "answer": "In industrialized countries, the majority of influenza-related deaths occur among people aged 65 years or older."
+  },
+  {
+    "question": "Where do most influenza-related deaths in children under 5 years occur?",
+    "answer": "Approximately 99% of influenza-related deaths in children under 5 years of age with lower respiratory tract infections occur in developing countries."
+  },
+  {
+    "question": "Which groups are at greater risk of severe influenza disease or complications?",
+    "answer": "Groups at greater risk include pregnant women, children under 5, older adults, individuals with chronic medical conditions (e.g., cardiac, pulmonary, renal diseases), and those with immunosuppressive conditions or treatments (e.g., HIV, chemotherapy)."
+  },
+  {
+    "question": "Why are health and care workers considered high risk for influenza?",
+    "answer": "Health and care workers are at high risk due to increased exposure to patients and the potential to spread the virus to vulnerable individuals, making vaccination crucial for their protection and that of others."
+  },
+  {
+    "question": "What are some societal impacts of influenza epidemics?",
+    "answer": "Influenza epidemics can lead to high levels of absenteeism from work and school, significant productivity losses, and overwhelm healthcare facilities during peak illness periods."
+  },
+  {
+    "question": "How does seasonal influenza primarily spread in crowded areas?",
+    "answer": "Seasonal influenza spreads through infectious droplets from coughs or sneezes and contaminated hands, emphasizing the need for covering the mouth/nose and regular handwashing."
+  },
+  {
+    "question": "What is the typical incubation period for seasonal influenza?",
+    "answer": "The incubation period for seasonal influenza is approximately 2 days, with a range of 1 to 4 days."
+  },
+  {
+    "question": "How is seasonal influenza typically diagnosed in most cases?",
+    "answer": "Most cases of seasonal influenza are clinically diagnosed, but laboratory confirmation is necessary for definitive diagnosis, especially during low influenza activity periods."
+  },
+  {
+    "question": "What challenges arise in diagnosing influenza outside of epidemic situations?",
+    "answer": "Outside epidemics, other respiratory viruses (e.g., SARS-CoV-2, rhinovirus) can cause influenza-like illness, making clinical differentiation difficult without laboratory tests."
+  },
+  {
+    "question": "What methods are commonly used for laboratory confirmation of influenza?",
+    "answer": "Laboratory confirmation methods include direct antigen detection, virus isolation, and RT-PCR for influenza-specific RNA, with guidance provided by WHO."
+  },
+  {
+    "question": "What are the limitations of rapid diagnostic tests for influenza?",
+    "answer": "Rapid diagnostic tests have lower sensitivity than RT-PCR and their reliability depends on the testing conditions."
+  },
+  {
+    "question": "When do seasonal influenza epidemics primarily occur in temperate climates?",
+    "answer": "In temperate climates, seasonal influenza epidemics mainly occur during the winter months."
+  },
+  {
+    "question": "How does the occurrence of influenza differ in tropical regions compared to temperate climates?",
+    "answer": "In tropical regions, influenza can occur year-round with irregular outbreaks, unlike the seasonal winter epidemics in temperate climates."
+  },
+  {
+    "question": "What is the recommended approach for individuals with mild influenza symptoms?",
+    "answer": "People with mild symptoms should stay home, rest, drink plenty of fluids, treat symptoms like fever, and seek medical care if symptoms worsen."
+  },
+  {
+    "question": "Who should receive antiviral treatment for influenza as soon as possible?",
+    "answer": "Antiviral medications are recommended for high-risk individuals, including pregnant women, children under 59 months, those aged 65 and older, people with chronic illnesses, chemotherapy recipients, and those with suppressed immune systems."
+  },
+  {
+    "question": "What is the role of the WHO GISRS in influenza management?",
+    "answer": "The WHO Global Influenza Surveillance and Response System monitors antiviral resistance in circulating influenza viruses to inform national policies on antiviral use."
+  },
+  {
+    "question": "What is the most effective method to prevent influenza?",
+    "answer": "Vaccination is the best way to prevent influenza, with annual vaccination recommended due to waning immunity over time."
+  },
+  {
+    "question": "Why is annual influenza vaccination important for older adults?",
+    "answer": "Although vaccine effectiveness may be lower in older people, it reduces the severity of illness, complications, and mortality risk."
+  },
+  {
+    "question": "Who should prioritize annual influenza vaccination?",
+    "answer": "Annual vaccination is especially important for high-risk groups, including pregnant women, children aged 6 months to 5 years, people over 65, those with chronic conditions, and health workers."
+  },
+  {
+    "question": "What are additional preventive measures against influenza besides vaccination?",
+    "answer": "Preventive measures include regular handwashing, covering the mouth and nose when coughing or sneezing, proper tissue disposal, staying home when unwell, avoiding close contact with the sick, and avoiding touching the eyes, nose, or mouth."
+  }
+]

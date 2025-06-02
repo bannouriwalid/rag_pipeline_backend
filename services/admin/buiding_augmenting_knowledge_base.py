@@ -23,7 +23,6 @@ refined_folder = spo_folder+'/refined'
 path_nodes = f'{Config.KB}/nodes'
 path_edges = f'{Config.KB}/edges'
 path_graphs = f'{Config.KB}/graphs'
-path_graphs_json = f'{Config.KB}/graphs_json'
 added_files_folder = f'{Config.KB}/added_textfiles'
 
 
@@ -312,7 +311,7 @@ def adaptive_chunks(rows, max_chars):
         yield batch
 
 
-def refine_spo_from_csv(input_path, output_path, max_chars_per_batch=5000):
+def refine_spo_from_csv(input_path, output_path, file_name="", max_chars_per_batch=5000):
     refining_system_prompt = """
     You are a medical SPO-triple refinement assistant for respiratory-disease knowledge graphs.
 
@@ -363,7 +362,16 @@ def refine_spo_from_csv(input_path, output_path, max_chars_per_batch=5000):
     os.makedirs(output_path, exist_ok=True)
     failed_files = 0
 
-    for file_name in tqdm(os.listdir(input_path), desc="Refining SPO per disease"):
+    treated_files = []
+
+    if file_name != "":
+        full_path = os.path.join(input_path, file_name)
+        if os.path.isfile(full_path):
+            treated_files = [file_name]
+    else:
+        treated_files = os.listdir(input_path)
+
+    for file_name in tqdm(treated_files, desc="Refining SPO per disease"):
         if not file_name.endswith('.csv'):
             continue
 
@@ -558,7 +566,7 @@ def extract_graphs_from_directory(
 
 def create_nodes_edges_folders():
     # Load the graphs from the JSON file
-    with open(path_graphs_json + '/graphs.json', 'r') as f:
+    with open(spo_folder + '/graphs.json', 'r') as f:
         graphs = json.load(f)
 
     # Create directories if they don't exist
@@ -595,7 +603,7 @@ def create_nodes_edges_folders():
 
 def graph_embedding_store():
     print("Embedding and storing graphs in milvusDB...")
-    with open(path_graphs_json + '/graphs.json', 'r') as f:
+    with open(spo_folder + '/graphs.json', 'r') as f:
         graphs = json.load(f)
 
     model, tokenizer, device = load_model()
@@ -681,11 +689,18 @@ def add_new_disease(complete_file_path):
     destination = os.path.join(added_files_folder, file_name)
     # Copy the file to the destination folder
     shutil.copy(complete_file_path, destination)
+    time.sleep(5)
     all_extracted_triples = spo_extraction(complete_file_path, raw_spo_folder, True)
+    print(all_extracted_triples)
+    time.sleep(5)
     normalized_spo_by_disease = normalize_and_deduplicate({file_name.split(".")[0]: all_extracted_triples}, [file_name.split(".")[0]])
     export_spo_per_disease(normalized_spo_by_disease, normalized_folder)
-    refine_spo_from_csv(normalized_folder, refined_folder)
+    time.sleep(5)
+    refine_spo_from_csv(normalized_folder, refined_folder, file_name.split(".")[0]+'.csv')
     summarize_refinement_process(normalized_folder, refined_folder)
+    time.sleep(5)
     extract_graphs_from_directory(refined_folder, spo_folder + '/graphs.json', verbose=True)
+    time.sleep(5)
     create_nodes_edges_folders()
+    time.sleep(5)
     graph_embedding_store()

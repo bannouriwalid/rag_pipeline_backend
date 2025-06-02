@@ -1,0 +1,318 @@
+[
+  {
+    "question": "What are the common symptoms of asthma?",
+    "answer": "Asthma symptoms include wheezing, breathlessness, chest tightness, and coughing, particularly at night or early in the morning."
+  },
+  {
+    "question": "What happens during an asthma attack?",
+    "answer": "During an asthma attack, the airways in the lungs swell, shrink, and produce mucus, leading to reduced airflow and difficulty breathing."
+  },
+  {
+    "question": "How can asthma be controlled?",
+    "answer": "Asthma can be controlled by recognizing warning signs, avoiding triggers, and following the doctor's prescribed treatment plan."
+  },
+  {
+    "question": "Why is asthma diagnosis challenging in children under 5?",
+    "answer": "Asthma diagnosis in children under 5 can be difficult due to overlapping symptoms with other conditions, requiring careful evaluation by a doctor."
+  },
+  {
+    "question": "What diagnostic tests may be used for asthma?",
+    "answer": "A doctor may use spirometry, a breathing test that measures lung function before and after using asthma medication, to aid in diagnosis."
+  },
+  {
+    "question": "What factors do doctors consider when diagnosing asthma?",
+    "answer": "Doctors consider symptoms like coughing, wheezing, and chest tightness, as well as family history, triggers, and impact on daily activities."
+  },
+  {
+    "question": "How do asthma medicines differ in their usage?",
+    "answer": "Asthma medicines are categorized as reliever therapy (for immediate relief) and controller therapy (to prevent attacks), with types including inhalers and pills."
+  },
+  {
+    "question": "What should be done if reliever medicine is used more frequently?",
+    "answer": "If reliever medicine use increases, consult a doctor to reassess the treatment plan and consider alternative medications."
+  },
+  {
+    "question": "Do asthma medicines have side effects?",
+    "answer": "Yes, asthma medicines can have side effects, but most are mild and temporary; discussing concerns with a doctor is recommended."
+  },
+  {
+    "question": "What are common asthma triggers found in the home environment?",
+    "answer": "Common asthma triggers in the home include secondhand smoke, dust mites, cockroaches, furry pets, and mold. Reducing exposure to these triggers can help prevent asthma attacks."
+  },
+  {
+    "question": "How can dust mites be controlled to prevent asthma attacks?",
+    "answer": "To control dust mites, use allergen-proof mattress and pillowcase covers, avoid down-filled bedding, wash bedding weekly, vacuum with a HEPA filter, and maintain low humidity (30-50%)."
+  },
+  {
+    "question": "What measures can be taken to reduce cockroach-related asthma triggers?",
+    "answer": "Reduce cockroach triggers by removing food and water sources, cleaning promptly, storing food in airtight containers, sealing entry points, and avoiding sprays or foggers that may trigger asthma."
+  },
+  {
+    "question": "How does mold contribute to asthma attacks, and how can it be managed?",
+    "answer": "Mold can trigger asthma attacks whether or not an allergy is present. Manage mold by fixing leaks, reducing humidity, scrubbing hard surfaces, using exhaust fans, and replacing moldy items like carpet or ceiling tiles."
+  },
+  {
+    "question": "What role do pets play in asthma triggers, and how can exposure be minimized?",
+    "answer": "Furry pets can trigger asthma in allergic individuals. Minimize exposure by keeping pets out of bedrooms, washing pets regularly, using HEPA air cleaners, and employing allergen-proof bedding covers."
+  },
+  {
+    "question": "What are some outdoor and environmental asthma triggers?",
+    "answer": "Outdoor triggers include air pollution from factories, cars, or wildfires, and weather conditions like thunderstorms, high humidity, or cold, dry air. Monitoring air quality forecasts can help manage exposure."
+  },
+  {
+    "question": "How do infections and allergies contribute to asthma attacks?",
+    "answer": "Infections (e.g., flu, colds, RSV, sinus infections) and allergies (e.g., pollen) can trigger asthma attacks. Managing these conditions and avoiding known allergens can help reduce asthma risk."
+  },
+  {
+    "question": "What other factors can trigger asthma attacks besides environmental allergens?",
+    "answer": "Additional triggers include breathing in chemicals or fragrances, acid reflux, certain foods or medicines (in allergic individuals), physical exercise, and strong emotions leading to rapid breathing."
+  },
+  {
+    "question": "What is the first step in managing asthma during an emergency?",
+    "answer": "Follow your Asthma Action Plan and take all prescribed asthma medications exactly as directed without making any changes without consulting your healthcare provider."
+  },
+  {
+    "question": "How can individuals with asthma prepare for a long stay at home?",
+    "answer": "Ensure at least a 30-day supply of non-prescription medications and asthma-related supplies are available at home."
+  },
+  {
+    "question": "What is a critical skill for asthma management?",
+    "answer": "Proper inhaler technique is essential; ensure you know how to use your inhaler correctly to manage asthma effectively."
+  },
+  {
+    "question": "What precautions should be taken to avoid asthma triggers during daily activities?",
+    "answer": "Avoid known asthma triggers and take everyday precautions such as frequent handwashing with soap and water or using alcohol-based hand sanitizers with at least 60% alcohol."
+  },
+  {
+    "question": "How should cleaning and disinfecting be handled in a household with someone who has asthma?",
+    "answer": "Have someone without asthma perform cleaning and disinfecting, avoid asthma-triggering products, ensure good ventilation, and apply cleaners to cloths rather than spraying into the air."
+  },
+  {
+    "question": "What role does stress management play in asthma control?",
+    "answer": "Managing stress and anxiety is crucial as strong emotions can trigger asthma attacks; engage in coping strategies to maintain asthma control."
+  },
+  {
+    "question": "Where can additional information on asthma emergency preparedness be found?",
+    "answer": "Visit the CDC's asthma emergency webpage at https://www.cdc.gov/asthma/emergency for more information."
+  },
+  {
+    "question": "What is asthma?",
+    "answer": "Asthma is a chronic (long-term) condition that affects the airways in the lungs, causing inflammation and narrowing, which makes it harder to breathe out."
+  },
+  {
+    "question": "How common is asthma in the United States?",
+    "answer": "Asthma affects approximately 1 in 13 people in the United States."
+  },
+  {
+    "question": "When does asthma typically start?",
+    "answer": "Asthma often starts during childhood, but it can affect people of all ages."
+  },
+  {
+    "question": "What are asthma triggers?",
+    "answer": "Asthma triggers are factors such as pollen, exercise, viral infections, or cold air that can set off or worsen asthma symptoms."
+  },
+  {
+    "question": "What happens during an asthma attack?",
+    "answer": "During an asthma attack, symptoms worsen, making it harder to breathe due to increased airway inflammation and narrowing."
+  },
+  {
+    "question": "Is there a cure for asthma?",
+    "answer": "No, there is no cure for asthma, but it can be managed with treatment and an asthma action plan."
+  },
+  {
+    "question": "What are the key components of managing asthma?",
+    "answer": "Managing asthma typically includes monitoring symptoms, avoiding triggers, and using prescribed medicines as part of an asthma action plan."
+  },
+  {
+    "question": "What are the common symptoms of asthma?",
+    "answer": "Common symptoms of asthma include wheezing (a whistling sound when breathing out), coughing (especially at night or early morning), shortness of breath, and chest tightness."
+  },
+  {
+    "question": "Is asthma a chronic condition?",
+    "answer": "Yes, asthma is a chronic condition that makes breathing more difficult."
+  },
+  {
+    "question": "What factors can trigger or worsen asthma symptoms?",
+    "answer": "Asthma symptoms can be triggered or worsened by viral infections (e.g., a cold), exercise, allergies, cold air, rapid breathing (from laughing or crying), and specific times of day (night or morning)."
+  },
+  {
+    "question": "How do asthma symptoms typically present over time?",
+    "answer": "Asthma symptoms often follow a pattern where they come and go over time or within the same day, and may change as a person ages."
+  },
+  {
+    "question": "What are signs that asthma might be getting worse?",
+    "answer": "Signs of worsening asthma include more frequent or severe symptoms, increased use of reliever medicine, nighttime awakenings due to symptoms, and difficulty with usual activities or exercise."
+  },
+  {
+    "question": "Can asthma symptoms in young children differ from those in adults?",
+    "answer": "Yes, asthma symptoms in young children may appear different compared to symptoms in older individuals."
+  },
+  {
+    "question": "What happens during an asthma attack?",
+    "answer": "During an asthma attack, the airways in the lungs narrow due to swelling or tightening, making it harder to breathe. Symptoms worsen and can be life-threatening, developing quickly or gradually."
+  },
+  {
+    "question": "What are common symptoms of an asthma attack?",
+    "answer": "Common symptoms include coughing, chest tightness, wheezing, feeling lightheaded, and difficulty breathing, often described as feeling like air is being sucked out or breathing through a straw."
+  },
+  {
+    "question": "What should be done immediately when an asthma attack starts?",
+    "answer": "Use your reliever inhaler as soon as symptoms begin and follow your asthma action plan to determine when to seek emergency care."
+  },
+  {
+    "question": "When should emergency services be called for an asthma attack?",
+    "answer": "Call 9-1-1 if symptoms do not improve with reliever medicine, if you have a history of severe attacks, or if you experience severe symptoms such as blue-tinged skin, drowsiness, or rapid heartbeat."
+  },
+  {
+    "question": "What treatments might be given in the emergency room for a severe asthma attack?",
+    "answer": "Emergency treatments may include nebulized medicines, intravenous corticosteroids, oxygen therapy, or mechanical ventilation in severe cases."
+  },
+  {
+    "question": "Who is at higher risk for frequent or severe asthma attacks?",
+    "answer": "Those with difficult-to-treat asthma, recent hospitalizations, oral corticosteroid use, inadequate inhaled corticosteroid use, frequent reliever inhaler use, mental health conditions, or non-adherence to asthma action plans."
+  },
+  {
+    "question": "When should a healthcare provider be contacted for asthma symptoms?",
+    "answer": "Contact your provider if medicines do not relieve an attack, peak flow numbers are low, or if you have specific risk factors such as food allergies, mental health conditions, or non-adherence to your action plan."
+  },
+  {
+    "question": "What are the primary factors contributing to the development of asthma?",
+    "answer": "The exact causes of asthma are unknown, but contributing factors include environmental allergens (e.g., cigarette smoke, germs), viral infections, family history (especially maternal asthma), allergies, obesity, race/ethnicity (higher risk in Puerto Rican, Black/African American populations), sex (more common in boys as children, women as adults), occupational hazards, and climate change-related air pollution."
+  },
+  {
+    "question": "How does asthma affect lung function?",
+    "answer": "In asthma, the body's defense system overreacts to inhaled substances, causing inflammation, airway narrowing, excess mucus production, and muscle tightening around airways. Over time, this can lead to thickened airway walls, making breathing increasingly difficult."
+  },
+  {
+    "question": "Can asthma be prevented?",
+    "answer": "While asthma cannot be entirely prevented due to unknown causes, reducing risk involves keeping homes mold-free, avoiding air pollution, and maintaining a healthy lifestyle (e.g., diet rich in fruits and vegetables)."
+  },
+  {
+    "question": "What are common asthma triggers?",
+    "answer": "Common asthma triggers include indoor/outdoor allergens (dust mites, pollen), emotional stress, physical activity, respiratory infections (colds, flu, COVID-19), certain medications (e.g., aspirin), and poor air quality or cold air."
+  },
+  {
+    "question": "Why are certain racial/ethnic groups at higher risk for asthma?",
+    "answer": "Puerto Rican, Black/African American, and Hispanic populations have a higher risk of developing asthma and experiencing severe outcomes, likely due to a combination of genetic, environmental, and socioeconomic factors."
+  },
+  {
+    "question": "How does obesity impact asthma risk and symptoms?",
+    "answer": "Obesity increases the risk of developing asthma and can exacerbate symptoms, though the exact mechanisms are not fully understood."
+  },
+  {
+    "question": "What should I do if I or my child experience asthma symptoms?",
+    "answer": "Talk to your healthcare provider about the symptoms and any possible risk factors. You may need to consult a team of professionals, including a primary care provider, asthma specialist, or allergist."
+  },
+  {
+    "question": "What are the common lung function tests used to diagnose asthma?",
+    "answer": "Common lung function tests include spirometry, peak expiratory flow (PEF) tests, and bronchodilator responsiveness tests to assess airway function and response to medication."
+  },
+  {
+    "question": "What do challenge tests, such as bronchial provocation tests, assess in asthma diagnosis?",
+    "answer": "Challenge tests evaluate airway sensitivity by comparing breathing performance before and after exposure to specific agents like inhaled medicines, allergens, exercise, or hyperventilation."
+  },
+  {
+    "question": "What additional tests might be used to support an asthma diagnosis?",
+    "answer": "Additional tests may include allergy tests, fractional exhaled nitric oxide (FeNO) tests to measure airway inflammation, blood tests for inflammation or allergies, and chest CT scans to assess airway thickness."
+  },
+  {
+    "question": "Why can diagnosing asthma be challenging in young children?",
+    "answer": "Most diagnostic tests for asthma are not effective in young children, making it difficult to confirm the diagnosis in this age group."
+  },
+  {
+    "question": "What factors determine the type of asthma treatment?",
+    "answer": "Asthma treatment depends on age, symptom severity, and response to medications."
+  },
+  {
+    "question": "What are the two main types of asthma medicines?",
+    "answer": "The two main types are quick-relief medicines (e.g., SABAs, oral corticosteroids) for immediate symptom relief and long-term control medicines (e.g., inhaled corticosteroids, biologics) for daily prevention."
+  },
+  {
+    "question": "How do quick-relief medicines help during an asthma attack?",
+    "answer": "Quick-relief medicines, such as inhaled short-acting beta2-agonists (SABAs), open airways quickly to ease breathing during an attack."
+  },
+  {
+    "question": "What are potential side effects of inhaled corticosteroids?",
+    "answer": "Common side effects include hoarse voice and mouth infections (e.g., thrush), while long-term high doses may increase the risk of cataracts and osteoporosis."
+  },
+  {
+    "question": "What is bronchial thermoplasty, and when is it considered?",
+    "answer": "Bronchial thermoplasty is a procedure that reduces airway muscle thickness to prevent narrowing, considered for severe asthma unresponsive to other treatments."
+  },
+  {
+    "question": "What is an asthma action plan, and what does it include?",
+    "answer": "An asthma action plan is a written guide that outlines triggers to avoid, medication schedules, emergency contacts, and steps to take during an asthma attack."
+  },
+  {
+    "question": "How is exercise-induced asthma typically managed?",
+    "answer": "Pre-exercise use of reliever medicine, inhaled corticosteroids for control, and regular physical training with warm-ups can help manage symptoms."
+  },
+  {
+    "question": "What is the primary approach to managing occupational asthma?",
+    "answer": "Removing or avoiding workplace allergens or sensitizing agents is crucial to prevent asthma flare-ups and worsening symptoms."
+  },
+  {
+    "question": "How does allergic asthma treatment differ from other types?",
+    "answer": "Allergic asthma often involves avoiding specific allergens, using inhaled corticosteroids, and potentially adding biologic medicines or allergy shots."
+  },
+  {
+    "question": "What does nocturnal asthma indicate about asthma control?",
+    "answer": "Nocturnal asthma, characterized by nighttime symptoms, often suggests poor asthma control and may require adjusting the treatment plan."
+  },
+  {
+    "question": "What is the importance of monitoring peak flow in asthma management?",
+    "answer": "Monitoring peak flow helps track asthma control by providing early warning of an attack, even before symptoms appear. It involves using a peak flow meter and keeping a record of results to compare over time."
+  },
+  {
+    "question": "How can identifying asthma triggers help in managing the condition?",
+    "answer": "Identifying triggers allows individuals to take steps to avoid them, such as removing pets, reducing dust and mold, and avoiding outdoor activities during poor air quality, thereby preventing asthma symptoms and attacks."
+  },
+  {
+    "question": "What lifestyle changes can help keep asthma symptoms under control?",
+    "answer": "Recommended lifestyle changes include maintaining a healthy weight, eating heart-healthy foods, engaging in regular physical activity, managing stress, quitting smoking, and ensuring good quality sleep to help manage asthma symptoms."
+  },
+  {
+    "question": "What are the risks of uncontrolled asthma during pregnancy?",
+    "answer": "Uncontrolled asthma during pregnancy increases the risk of asthma attacks and complications such as preeclampsia, preterm delivery, and low birth weight. It is crucial to keep asthma under control with guidance from a healthcare provider."
+  },
+  {
+    "question": "How does COVID-19 affect individuals with asthma?",
+    "answer": "Individuals with asthma may have a higher risk of getting sick from COVID-19. It is essential to take protective measures and continue asthma medications as prescribed, consulting a healthcare provider for any concerns."
+  },
+  {
+    "question": "What role do vaccines play in asthma management?",
+    "answer": "Vaccines, such as flu and pneumonia vaccines, help prevent lung infections that can trigger asthma symptoms. It is recommended to discuss vaccine options with a healthcare provider to reduce the risk of complications."
+  },
+  {
+    "question": "Can exercise be safely incorporated into an asthma management plan?",
+    "answer": "Yes, regular physical activity is encouraged as part of a healthy lifestyle. However, it is important to discuss exercise plans with a healthcare provider, as some individuals may need medication to prevent exercise-induced asthma symptoms."
+  },
+  {
+    "question": "What is asthma and what are its primary causes?",
+    "answer": "Asthma is a chronic lung disease characterized by inflammation and muscle tightening around the airways, making breathing difficult. Primary causes include genetic predisposition, environmental factors like air pollution and allergens, and early-life events such as prematurity and viral infections."
+  },
+  {
+    "question": "What are the common symptoms of asthma?",
+    "answer": "Common symptoms of asthma include a persistent cough (especially at night), wheezing during exhalation or inhalation, shortness of breath (even at rest), and chest tightness. Symptoms can worsen during exercise, colds, or exposure to triggers like dust, smoke, or pollen."
+  },
+  {
+    "question": "How does asthma impact daily life and what are the risks of under-treatment?",
+    "answer": "Asthma can lead to sleep disturbances, daytime tiredness, and poor concentration. Under-treated asthma may result in missed school/work, financial burdens, and increased emergency healthcare needs. Severe cases can lead to hospitalization or even death."
+  },
+  {
+    "question": "What are the main types of inhalers used for asthma treatment?",
+    "answer": "The two main types of inhalers are bronchodilators (e.g., salbutamol) to open air passages and relieve symptoms, and steroids (e.g., beclometasone) to reduce inflammation and lower the risk of severe attacks."
+  },
+  {
+    "question": "What is the role of a spacer device in asthma management?",
+    "answer": "A spacer device helps deliver medication directly to the lungs, making inhaler use easier, especially for children and in emergencies. Homemade spacers (e.g., 500ml plastic bottles) can be as effective as commercial ones."
+  },
+  {
+    "question": "Why is self-care and education important for asthma management?",
+    "answer": "Self-care and education empower individuals to understand their asthma, avoid triggers, manage symptoms, and adjust treatment as needed. An asthma action plan helps prevent severe attacks by guiding treatment adjustments during symptom worsening."
+  },
+  {
+    "question": "What global challenges exist in asthma treatment access?",
+    "answer": "In 2021, bronchodilators were available in only half of low- and low-middle income countries, and steroid inhalers in one third, highlighting significant access disparities. Community awareness is also crucial to reduce myths and stigma surrounding asthma."
+  }
+]

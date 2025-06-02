@@ -21,27 +21,30 @@ datasets
 gensim
 
 # Logging & Monitoring
-tqdm
+tqdm~=4.67.1
 
 # Vector Search / RAG
 pcst_fast       
-pymilvus
+pymilvus~=2.5.10
 langchain
-openai
+openai~=1.82.1
 
 # Web Backend
-flask
+flask~=3.1.1
 flask_sqlalchemy 
 flask_cors
-python-dotenv 
-requests
+python-dotenv~=1.1.0
+requests~=2.32.3
 
 # Database 
 pymysql
 
 # Utils / Parsing / Math
-pandas
+pandas~=2.2.3
 scipy==1.12.0
 protobuf
-networkx
-bs4             
+networkx~=3.4.2
+bs4~=0.0.2
+numpy~=1.26.4
+beautifulsoup4~=4.13.4
+sqlalchemy~=2.0.41
