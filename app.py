@@ -3,6 +3,8 @@ from flask_cors import CORS
 from config import Config
 from db import db
 from api.user_routes import user_bp
+from api.admin_routes import admin_bp
+from api.doctor_routes import doctor_bp
 
 
 def create_app():
@@ -11,6 +13,8 @@ def create_app():
     db.init_app(application)
     CORS(application)
     application.register_blueprint(user_bp, url_prefix="/api/user")
+    application.register_blueprint(admin_bp, url_prefix="/api/admin")
+    application.register_blueprint(doctor_bp, url_prefix="/api/doctor")
     return application
 
 

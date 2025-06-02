@@ -1,0 +1,145 @@
+subject,predicate,object
+influenza,has_symptom,fever
+influenza,has_symptom,cough
+influenza,has_symptom,sore throat
+influenza,has_symptom,body aches
+influenza,has_symptom,fatigue
+influenza,is_caused_by,influenza viruses
+influenza,is_prevented_by,vaccination
+influenza,leads_to_complication,pneumonia
+influenza,leads_to_complication,sepsis
+influenza,has_risk_factor,age 65 years or older
+influenza,has_risk_factor,children under 5 years of age
+influenza,has_risk_factor,chronic medical conditions
+influenza,has_risk_factor,immunosuppressive conditions
+influenza,is_treated_by,rest
+influenza,is_treated_by,fluid intake
+influenza,is_treated_by,antiviral medications
+influenza,is_diagnosed_by,laboratory diagnostic test
+influenza,is_diagnosed_by,reverse transcriptase-polymerase chain reaction (rt-pcr)
+influenza,occurs_with,influenza-like illness (ili)
+influenza,associated_with,high-risk groups
+influenza,associated_with,seasonal epidemics
+influenza a viruses,causes,seasonal epidemics
+influenza b viruses,causes,seasonal epidemics
+influenza a(h1n1),causes,pandemic
+influenza a(h3n2),causes,seasonal epidemics
+vaccination,treats,influenza
+antiviral medications,treats,influenza
+hand washing,prevents,influenza transmission
+respiratory hygiene,prevents,influenza transmission
+influenza,has_symptom,sudden onset of fever
+influenza,has_symptom,headache
+influenza,has_symptom,muscle and joint pain
+influenza,has_symptom,severe malaise
+influenza,has_symptom,runny nose
+influenza,leads_to_complication,chronic disease exacerbation
+influenza,has_risk_factor,pregnancy
+influenza,has_risk_factor,health and care workers
+influenza,is_prevented_by,annual vaccination
+influenza,is_prevented_by,hand hygiene
+influenza,is_prevented_by,respiratory etiquette
+influenza,is_prevented_by,avoiding close contact with sick people
+influenza,occurs_with,incubation period of 1-4 days
+influenza,associated_with,high worker/school absenteeism
+influenza,associated_with,productivity losses
+influenza,associated_with,healthcare system overload
+influenza a viruses,classified into,subtypes
+influenza b viruses,broken down into,lineages
+influenza c virus,causes,mild infections
+influenza d viruses,affect,cattle
+influenza d viruses,not known to infect,humans
+influenza,transmitted by,coughing
+influenza,transmitted by,sneezing
+influenza,transmitted by,contaminated hands
+influenza,transmitted in,crowded areas
+influenza,transmitted in,schools
+influenza,transmitted in,nursing homes
+influenza,has_symptom,cough lasting 2 weeks or more
+influenza,leads_to_complication,death
+influenza,has_risk_factor,age under 5 years
+influenza,has_risk_factor,metabolic diseases
+influenza,has_risk_factor,neurodevelopmental diseases
+influenza,has_risk_factor,liver diseases
+influenza,has_risk_factor,hematologic diseases
+influenza,has_risk_factor,chemotherapy
+influenza,has_risk_factor,steroid use
+influenza,has_risk_factor,malignancy
+influenza,is_treated_by,fluids
+influenza,is_treated_by,fever treatment
+influenza,is_diagnosed_by,clinical diagnosis
+influenza,is_diagnosed_by,rapid diagnostic tests
+influenza,occurs_with,other respiratory viruses
+influenza,associated_with,antiviral resistance
+influenza,prevented_by,vaccination of high-risk groups
+influenza,prevented_by,vaccination of health workers
+influenza,prevented_by,annual vaccination of children
+influenza,prevented_by,annual vaccination of older adults
+influenza,prevented_by,annual vaccination of pregnant women
+influenza,prevented_by,annual vaccination of people with chronic conditions
+influenza,transmitted in,temperate climates during winter
+influenza,transmitted in,tropical regions year-round
+influenza,has_symptom,incubation period of 2 days
+influenza,leads_to_complication,hospitalization
+influenza,associated_with,global morbidity
+influenza,associated_with,global mortality
+influenza,associated_with,economic burden
+influenza,associated_with,healthcare burden
+influenza a(h1n1)pdm09,causes,pandemic in 2009
+influenza a(h1n1)pdm09,replaced,previous a(h1n1) virus
+influenza b viruses,belong to,b/yamagata lineage
+influenza b viruses,belong to,b/victoria lineage
+influenza c virus,not associated with,public health importance
+influenza d viruses,not associated with,human infection
+influenza,transmitted by,infectious droplets
+influenza,prevented_by,tissue use
+influenza,prevented_by,regular hand washing
+influenza,prevented_by,avoiding face touching
+influenza,is_treated_by,medical care for severe cases
+influenza,is_treated_by,home rest
+influenza,is_treated_by,hydration
+influenza,is_treated_by,antiviral medications for high-risk groups
+influenza,is_diagnosed_by,respiratory sample collection
+influenza,is_diagnosed_by,direct antigen detection
+influenza,is_diagnosed_by,virus isolation
+influenza,is_diagnosed_by,rt-pcr
+influenza,occurs_with,other respiratory pathogens
+influenza,associated_with,antiviral resistance monitoring
+influenza,prevented_by,vaccination of caregivers
+influenza,prevented_by,annual vaccination updates
+influenza,transmitted in,close proximity
+influenza,has_symptom,mild infections in some cases
+influenza,leads_to_complication,severe illness in high-risk groups
+influenza,associated_with,global surveillance
+influenza,associated_with,public health guidance
+influenza,associated_with,vaccine effectiveness
+influenza,prevented_by,herd immunity
+influenza,prevented_by,reducing transmission in communities
+influenza,transmitted by,airborne droplets
+influenza,transmitted by,contaminated surfaces
+influenza,prevented_by,surface disinfection
+influenza,prevented_by,good respiratory hygiene
+influenza,is_treated_by,supportive care
+influenza,is_treated_by,monitoring for complications
+influenza,is_diagnosed_by,clinical evaluation
+influenza,is_diagnosed_by,epidemiological context
+influenza,occurs_with,seasonal patterns
+influenza,associated_with,climate factors
+influenza,associated_with,geographic distribution
+influenza,has_risk_factor,immunocompromised individuals
+influenza,has_risk_factor,chronic cardiac diseases
+influenza,has_risk_factor,chronic pulmonary diseases
+influenza,has_risk_factor,chronic renal diseases
+influenza,has_risk_factor,chronic metabolic diseases
+influenza,has_risk_factor,chronic neurodevelopmental diseases
+influenza,has_risk_factor,chronic liver diseases
+influenza,has_risk_factor,chronic hematologic diseases
+influenza,has_risk_factor,hiv infection
+influenza,has_risk_factor,chemotherapy treatment
+influenza,has_risk_factor,steroid treatment
+influenza,is_treated_by,oseltamivir
+influenza,is_treated_by,zanamivir
+influenza,is_treated_by,peramivir
+influenza,is_treated_by,baloxavir
+influenza,is_prevented_by,trivalent vaccine
+influenza,is_prevented_by,quadrivalent vaccine

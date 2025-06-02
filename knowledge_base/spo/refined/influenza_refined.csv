@@ -1,0 +1,206 @@
+subject,predicate,object
+chronic_cardiac_disease,increases_risk_of,influenza
+influenza,is_treated_by,antiviral medications
+influenza,transmitted in,crowded areas
+influenza,has_risk_factor,chronic medical conditions
+influenza c virus,causes,mild respiratory infections
+influenza,is_treated_by,hospitalization for severe cases
+influenza,has_risk_factor,steroid therapy
+influenza,prevented_by,regular hand washing
+hiv_infection,increases_risk_of,influenza
+influenza,is_treated_by,fluid administration
+influenza,is_treated_by,hydration therapy
+hand washing,prevents,influenza transmission
+influenza,has_symptom,headache
+influenza a viruses,classified into,subtypes
+influenza,transmitted in,close contact
+influenza,has_risk_factor,malignant neoplasms
+influenza,prevented_by,surface_disinfection
+influenza,associated_with,climate_factors
+influenza,is_treated_by,antiviral medications for high-risk groups
+influenza,is_treated_by,zanamivir
+influenza,has_risk_factor,metabolic disorders
+influenza,occurs_with,incubation period of 1-4 days
+influenza,transmitted in,tropical regions year-round
+vaccine_effectiveness,evaluates,influenza_vaccine
+influenza,associated_with,vaccine_effectiveness
+influenza,prevented_by,annual geriatric vaccination
+influenza,is_prevented_by,trivalent_vaccine
+influenza,associated_with,seasonal epidemics
+influenza,has_risk_factor,immunocompromised_individuals
+influenza,leads_to_complication,hospital admission
+influenza,has_risk_factor,pregnancy
+influenza,prevented_by,tissue disposal
+influenza a(h1n1)pdm09,causes,2009 pandemic
+seasonal_patterns,associated_with,influenza
+public_health_guidance,addresses,influenza
+influenza b viruses,belong to,b/yamagata lineage
+influenza,associated_with,antiviral resistance monitoring
+influenza,prevented_by,annual pregnancy vaccination
+influenza,is_diagnosed_by,reverse transcriptase-polymerase chain reaction
+good_respiratory_hygiene,prevents,transmission
+vaccination,prevents,influenza transmission
+influenza,prevented_by,tissue use
+influenza,prevented_by,annual vaccination of healthcare workers
+influenza,occurs_with,influenza-like illness
+influenza,has_risk_factor,chemotherapy
+influenza,is_treated_by,fever management
+influenza,has_symptom,fever
+influenza,prevented_by,annual vaccination of high-risk groups
+influenza,is_treated_by,antiviral therapy for high-risk groups
+influenza d viruses,not associated with,human infections
+geographic_distribution,influences,seasonal_patterns
+antiviral medications,treats,influenza
+influenza,is_treated_by,medical care for severe cases
+chronic_metabolic_disease,increases_risk_of,influenza
+chronic_renal_disease,increases_risk_of,influenza
+influenza,is_diagnosed_by,rapid diagnostic testing
+influenza,has_symptom,muscle and joint pain
+influenza,has_risk_factor,children under 5 years of age
+quadrivalent_vaccine,is_type_of,influenza_vaccine
+influenza a(h1n1),causes,pandemic
+influenza,has_risk_factor,healthcare workers
+influenza,is_diagnosed_by,viral culture isolation
+peramivir,treats,influenza
+influenza,prevented_by,annual vaccination updates
+influenza,is_diagnosed_by,clinical_evaluation
+climate_factors,influences,seasonal_patterns
+airborne_droplets,transmits,influenza
+influenza,associated_with,high-risk groups
+influenza,has_risk_factor,liver diseases
+influenza,leads_to_complication,chronic disease exacerbation
+immunocompromised_individuals,at_risk_for,influenza
+chronic_neurodevelopmental_disease,increases_risk_of,influenza
+influenza,is_treated_by,baloxavir
+influenza,is_treated_by,rest
+influenza a(h1n1)pdm09,replaced,previous influenza a(h1n1) strain
+influenza,is_treated_by,complication_monitoring
+clinical_evaluation,diagnoses,influenza
+influenza,prevented_by,vaccination of caregivers
+influenza,associated_with,global_surveillance
+influenza,is_diagnosed_by,respiratory sample collection
+respiratory hygiene,prevents,influenza transmission
+influenza,has_symptom,severe malaise
+influenza,prevented_by,good_respiratory_hygiene
+influenza,prevented_by,vaccination of caregiving personnel
+influenza,prevented_by,herd_immunity
+influenza,prevented_by,vaccination of high-risk populations
+influenza,prevented_by,vaccination of healthcare personnel
+influenza,occurs_with,co-circulating respiratory viruses
+influenza,prevented_by,avoiding facial contact
+influenza,has_risk_factor,age 65 years or older
+influenza,has_risk_factor,chronic_renal_disease
+influenza,transmitted in,schools
+influenza d viruses,not known to infect,humans
+influenza b viruses,belong to,b/victoria lineage
+influenza c virus,not associated with,significant public health impact
+influenza,associated_with,global disease burden
+oseltamivir,treats,influenza
+influenza,is_treated_by,oseltamivir
+influenza_vaccine,prevents,influenza
+influenza,transmitted by,coughing
+influenza b viruses,broken down into,lineages
+influenza,has_risk_factor,immunosuppressive conditions
+trivalent_vaccine,is_type_of,influenza_vaccine
+influenza,leads_to_complication,severe_illness_in_high-risk_groups
+supportive_care,treats,influenza
+influenza,leads_to_complication,sepsis
+influenza,is_diagnosed_by,clinical evaluation
+influenza,is_prevented_by,hand hygiene
+complication_monitoring,treats,influenza
+influenza,prevented_by,annual vaccination of people with chronic conditions
+influenza,associated_with,geographic_distribution
+surface_disinfection,prevents,transmission
+influenza,is_treated_by,home rest
+contaminated_surfaces,transmits,influenza
+influenza,is_prevented_by,annual vaccination
+influenza,prevented_by,avoiding face touching
+influenza,leads_to_complication,pneumonia
+influenza,leads_to_complication,death
+influenza,is_caused_by,influenza viruses
+influenza,prevented_by,updated annual vaccination
+influenza,prevented_by,annual vaccination of pregnant women
+influenza,transmitted by,sneezing
+influenza,is_prevented_by,respiratory etiquette
+influenza,prevented_by,annual vaccination of caregivers
+influenza,is_diagnosed_by,direct antigen testing
+influenza,prevented_by,annual vaccine formulation updates
+influenza,is_diagnosed_by,reverse transcription polymerase chain reaction
+influenza,is_prevented_by,quadrivalent_vaccine
+global_surveillance,monitors,influenza
+chemotherapy,increases_risk_of,influenza
+influenza,is_prevented_by,avoiding close contact with sick individuals
+influenza,is_treated_by,fluid intake
+influenza,transmitted in,nursing homes
+influenza,associated_with,economic impact
+influenza,has_risk_factor,chemotherapy treatment
+influenza,has_symptom,incubation period of 2 days
+influenza,associated_with,public_health_guidance
+influenza a viruses,causes,seasonal epidemics
+influenza,occurs_with,co-infecting respiratory pathogens
+influenza,transmitted in,close proximity settings
+influenza,occurs_with,seasonal_patterns
+influenza,prevented_by,vaccination
+influenza,prevented_by,annual vaccination for chronic conditions
+influenza,has_symptom,runny nose
+influenza,is_treated_by,
+influenza,associated_with,antiviral susceptibility monitoring
+influenza,prevented_by,annual pediatric vaccination
+influenza,prevented_by,annual vaccination of older adults
+steroid_therapy,increases_risk_of,influenza
+influenza,has_risk_factor,chronic_metabolic_disease
+influenza,is_prevented_by,vaccination
+influenza,has_risk_factor,chronic_liver_disease
+influenza,has_symptom,cough lasting 2 weeks or more
+influenza,transmitted_by,contaminated_surfaces
+influenza,is_diagnosed_by,rt-pcr
+influenza,is_diagnosed_by,virus isolation
+influenza,associated_with,healthcare system overload
+influenza,occurs_with,other respiratory pathogens
+influenza,transmitted in,close proximity
+influenza,is_diagnosed_by,epidemiological_context
+influenza,has_risk_factor,chronic_pulmonary_disease
+influenza,has_risk_factor,chronic_hematologic_disease
+influenza,is_treated_by,peramivir
+influenza a(h3n2),causes,seasonal epidemics
+influenza,is_treated_by,supportive_care
+influenza,has_risk_factor,chronic_cardiac_disease
+influenza,transmitted by,contaminated hands
+influenza,is_diagnosed_by,laboratory diagnostic test
+influenza,transmitted_by,airborne_droplets
+chronic_hematologic_disease,increases_risk_of,influenza
+zanamivir,treats,influenza
+baloxavir,treats,influenza
+influenza b viruses,causes,seasonal epidemics
+influenza,associated_with,high worker absenteeism
+influenza,associated_with,healthcare resource utilization
+influenza,has_symptom,sudden onset of fever
+influenza,has_symptom,body aches
+influenza,is_diagnosed_by,direct antigen detection
+influenza,has_risk_factor,chronic_neurodevelopmental_disease
+influenza,has_risk_factor,hiv_infection
+influenza,has_symptom,fatigue
+herd_immunity,related_to,vaccination
+influenza,has_risk_factor,neurodevelopmental disorders
+influenza d viruses,affect,cattle populations
+influenza,has_risk_factor,steroid_therapy
+influenza,has_risk_factor,age under 5 years
+influenza,is_diagnosed_by,respiratory specimen collection
+influenza,associated_with,global mortality rates
+chronic_pulmonary_disease,increases_risk_of,influenza
+chronic_liver_disease,increases_risk_of,influenza
+influenza,associated_with,antiviral resistance development
+epidemiological_context,diagnoses,influenza
+influenza,transmitted by,respiratory droplets
+influenza,has_symptom,mild_infection
+transmission_reduction_in_communities,related_to,herd_immunity
+influenza,has_symptom,cough
+influenza,is_treated_by,hydration
+influenza,has_symptom,sore throat
+influenza,prevented_by,transmission_reduction_in_communities
+influenza,prevented_by,annual vaccination of children
+influenza,prevented_by,regular hand hygiene
+influenza,has_risk_factor,hematologic disorders
+influenza,is_treated_by,home confinement
+influenza,associated_with,productivity losses
+influenza,transmitted in,temperate climates during winter months
